@@ -1,0 +1,29 @@
+div{
+    color: bisque;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+a{
+    color: red;
+
+}
+.negrito{
+    font-weight: bold;
+
+}
+
+.italico{
+    font-style: italic;
+}
+#enviar{
+    background-color: aquamarine;
+
+}
+#limpar{
+    background-color: white;
+}
+
+body{
+    background-color: black;
+    color: white;
+}

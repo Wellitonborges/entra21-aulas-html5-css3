@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body bgcolor="#949494">
+<a href="/Aula01/index.html"> Voltar para o Inicio</a>
+<hr>
+<form action="mailto:ruber@oliota.com?subject=teste de formulário" method="post" enctype="text/plain">
+<label for="nome">Nome:</label>
+<input type="text" name="nome" id="nome" placeholder="Informe seu nome" required>
+<br>
+<label for="idade">Idade:</label>
+<input type="number" name=" idade" id="idade" placeholder="Informe sua idade" readonly>
+<br>
+<label for="tema">Tema Preferido:</label>
+<br>
+<input type="radio" name="tema_preferido" value="ligth" >ligth
+
+<input type="radio" name="tema_preferido" value="dark"> dark
+
+<br>
+
+<label for="nascimento"> Data de nascimento</label>
+<input type="datetime-local" name="nascimento">
+<input type="reset" value="Limpar">
+<br>
+
+<label for="cor">Cor Preferida:</label>
+<input type="color" name="cor">
+
+<input type="submit" value="enviar">
+
+
+
+</form>
+
+
+
+
+    
+</body>
+</html>
